@@ -7,7 +7,6 @@ public class rotateArray {
         int d = 2;
         rotateArray(arr,d);
     }
-s
     private static void rotateArray(int[] arr, int d) {
         for (int i = 0; i < d;i++){
             rightRotate(arr,arr.length);
