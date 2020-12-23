@@ -1,4 +1,4 @@
-package Top_Interview_Questions.Easy;
+package Top_Interview_Questions.Easy.Arrays;
 
 /* 
 Problem Statement : 
