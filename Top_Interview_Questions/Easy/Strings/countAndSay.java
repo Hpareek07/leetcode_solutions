@@ -3,7 +3,7 @@ package Top_Interview_Questions.Easy.Strings;
 public class countAndSay {
 
     public static void main(String[] args) {
-        int num = 1;
+        int num = 12;
 
         String first = "flower";
         String second  = "flight";

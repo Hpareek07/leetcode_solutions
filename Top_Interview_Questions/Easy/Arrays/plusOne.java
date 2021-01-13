@@ -7,7 +7,8 @@ public class plusOne {
     
     public static void main(String[] args) {
         // int arr[] = {1,2,1,9};
-        int arr[] = {9};
+        int arr[] = {1};
+        // int arr[] = {9};
         for( int num : plusOne(arr,0,arr.length-1)){
             System.out.print(num+" ");
         }

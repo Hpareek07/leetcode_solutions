@@ -21,7 +21,7 @@ public class kthMaxandMin {
         for(int elem : arr){
             minHeap.add(elem);
         }
-
+        System.out.println(minHeap.toString());
         for(int i = 0; i < k;i++){
 
             if(minHeap.peek() < arr[i]){
@@ -40,6 +40,7 @@ public class kthMaxandMin {
         // for(Object elem : minHeap.toArray()) {
         //     System.out.println(elem.toString());
         // }
+        System.out.println(minHeap.toString());
         System.out.println(minHeap.toArray()[k-1]);
         System.out.println(minHeap.toArray()[arr.length-k+1]);
         
